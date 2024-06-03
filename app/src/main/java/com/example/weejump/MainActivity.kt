@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
         accelerometerHandler = AccelerometerHandler(this)
 
         // Initialize the MediaPlayer
-        mediaPlayer = MediaPlayer.create(this, R.raw.weee) // Replace R.raw.jump_sound with the resource ID of your sound file
+        mediaPlayer = MediaPlayer.create(this, R.raw.weee)
 
         // Find the play_sound_button view
         playSoundButton = findViewById(R.id.play_sound_button)
